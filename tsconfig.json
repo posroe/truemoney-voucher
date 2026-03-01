@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
-    "lib": ["ES7", "DOM"],
-    "target": "ESNext",
-    "module": "CommonJS"
-  }
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "declaration": true,
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }

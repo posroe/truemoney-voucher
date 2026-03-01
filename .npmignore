@@ -1,5 +1,2 @@
 *.ts
-/webpack.config.js
 /node_modules
-/src
-/tsconfig.json
